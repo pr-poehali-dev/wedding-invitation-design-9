@@ -28,13 +28,16 @@ export default function Index() {
             Дорогой Гость!
           </p>
           <h1 className="text-6xl md:text-8xl font-light text-wedding-charcoal leading-none mb-2">
-            Свадьба
+            Вячеслав
           </h1>
           <div className="flex items-center justify-center gap-6 my-5">
             <div className="h-px w-16 bg-wedding-gold" />
-            <span className="text-wedding-gold text-4xl italic font-light">Love</span>
+            <span className="text-wedding-gold text-4xl italic font-light">&amp;</span>
             <div className="h-px w-16 bg-wedding-gold" />
           </div>
+          <h1 className="text-6xl md:text-8xl font-light text-wedding-charcoal leading-none mb-2">
+            Ольга
+          </h1>
           <p className="text-xl font-light text-wedding-gray italic mb-8 leading-relaxed max-w-md mx-auto">
             Там, где посеяна любовь, растёт радость!
           </p>
@@ -233,7 +236,7 @@ export default function Index() {
 
       {/* Footer */}
       <footer className="py-12 px-6 bg-wedding-ivory text-center border-t border-wedding-border">
-        <p className="text-4xl font-light italic text-wedding-charcoal mb-3">Love</p>
+        <p className="text-4xl font-light italic text-wedding-charcoal mb-3">В &amp; О</p>
         <p className="font-montserrat text-xs tracking-[0.4em] text-wedding-gray uppercase">
           19 · 04 · 2026
         </p>
